@@ -22,7 +22,7 @@ The purpose of this analysis is to evaluate the performance of six machine learn
 
 ## Results
 
-According to Stephen Allwright [Stephen Allwright](https://stephenallwright.com/balanced-accuracy/), a good accuracy score is "entirely dependent upon your use case and dataset." However, he does say that most data scientists use the following rule of thumb:
+According to [Stephen Allwright](https://stephenallwright.com/balanced-accuracy/), a good accuracy score is "entirely dependent upon your use case and dataset." However, he does say that most data scientists use the following rule of thumb:
 
 * Over 0.9 - Very good
 * Between 0.7 and 0.9 - Good
