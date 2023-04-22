@@ -34,7 +34,7 @@ When it comes to precision and recall scores, there is always a tension between 
 Let's take a look at the performance of our models.
 
 
-#### Naive Random Oversampling
+### Naive Random Oversampling
 
 * The RandomOverSampler algorithm returned a balanced accuracy score of 0.6409, which would be considered "OK" according to the rule of thumb (RoT).
 
@@ -44,7 +44,7 @@ Let's take a look at the performance of our models.
 
 ![ROS_BAS](challenge/resources/ROS_ICR.png)
 
-#### SMOTE
+### SMOTE
 
 * The SMOTE algorithm returned a balanced accuracy score of 0.6631, which is considered "OK" according to the RoT.
 
@@ -54,7 +54,7 @@ Let's take a look at the performance of our models.
 
 ![SMOTE_BAS](challenge/resources/SMOTE_ICR.png)
 
-#### Cluster Centroids
+### Cluster Centroids
 
 * The ClusterCentroids algorithm returned a balanced accuracy score of 0.6630, an "OK" score and almost exactly the same as the SMOTE algorithm.
 
@@ -64,7 +64,7 @@ Let's take a look at the performance of our models.
 
 ![CC_BAS](challenge/resources/CC_ICR.png)
 
-#### SMOTEENN
+### SMOTEENN
 
 * The SMOTEENN algorithm returned a balanced accuracy score barely better than random chance at 0.5443, which is considered "poor" by the RoT.
 
@@ -74,7 +74,7 @@ The SMOTEENN algorithm returned an extremely low precision score of 0.01, but a 
 
 ![SMOTEENN_BAS](challenge/resources/SMOTEENN_ICR.png)
 
-#### Balanced Random Forest Classifier
+### Balanced Random Forest Classifier
 
 * The BalancedRandomForest algorithm returned a balanced accuracy score of 0.7666, which is considered "good" according to the RoT.
 
@@ -84,7 +84,7 @@ The BalancedRandomForest algorithm returned an extremely low precision score of 
 
 ![BRF_BAS](challenge/resources/BRF_ICR.png)
 
-#### Easy Ensemble Ada Boost
+### Easy Ensemble Ada Boost
 
 The EasyEnsemble and AdaBoost algorithm returned a balanced accuracy score of 0.9416, which is considered "very good" according to the RoT.
 
