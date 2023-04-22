@@ -23,4 +23,4 @@ The purpose of this analysis was to evaluate the performance of six machine lear
 ## Results
 #### RandomOverSampler
 
-![ROS_BAS]('resources/ROS_BAS.png')
+![ROS_BAS](challenge/resources/ROS_BAS.png)
